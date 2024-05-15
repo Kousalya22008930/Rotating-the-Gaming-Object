@@ -4,7 +4,7 @@
 To develop a 3D application for rotating the gaming objects in unity.
 ## Algorithm:
 ### Step1:
-Start
+Start the program
 ### Start2:
 Click File -> Scene -> Select the scene -> Save as-> New folder(Scenes)-> File name (Expno1)
 ### Start3:
@@ -34,10 +34,33 @@ Create a folder name Coding and create a C# file to add the coding in it.
 To add our C# Script file to our selected object, click on the C# Script file and drag it to our selected objects in the Hierarchy window nad run the application.
 
 ### Start8:
-Stop
+Stop the program
 
 ## Program:
+```
+using System.Collections;
+using System.Collections.Generic;
+using UnityEngine;
+
+public class rotate : MonoBehaviour
+{
+    // Start is called before the first frame update
+    void Start()
+    {
+        
+    }
+
+    // Update is called once per frame
+    void Update()
+    {
+        transform.RotateAround(Vector3.forward, Vector3.left,40*Time.deltaTime);
+    }
+}
+```
 
 ## Output:
 
 ## Result:
+Thus the output for the rotating the object successfully displayed.
+
+
