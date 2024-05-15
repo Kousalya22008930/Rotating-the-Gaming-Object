@@ -59,6 +59,7 @@ public class rotate : MonoBehaviour
 ```
 
 ## Output:
+![image](https://github.com/Kousalya22008930/Rotating-the-Gaming-Object/assets/119389108/852fedfb-edb3-4b21-90eb-39e4d971a7df)
 
 ## Result:
 Thus the output for the rotating the object successfully displayed.
